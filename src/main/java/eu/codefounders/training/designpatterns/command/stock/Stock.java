@@ -8,12 +8,12 @@ public class Stock {
 
 	public void buy() {
 		quantity++;
-		System.out.println("Stock [ Name: " + name + "Quantity: " + quantity + " ] bought");
+		System.out.println("Stock [ Name: " + name + " - Quantity: " + quantity + " ] bought");
 	}
 
 	public void sell() {
 		quantity--;
-		System.out.println("Stock [ Name: " + name + "Quantity: " + quantity + " ] sold");
+		System.out.println("Stock [ Name: " + name + " - Quantity: " + quantity + " ] sold");
 	}
 	
 }

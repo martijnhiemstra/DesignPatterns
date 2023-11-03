@@ -5,6 +5,13 @@ import java.util.List;
 
 import eu.codefounders.training.designpatterns.encapsulation.Person;
 
+/*
+ * Person respository bevat een lijst van persons en hierin zit een PersonIterator.
+ * 
+ * De PersonIterator gaat de lijst van persons langs en door de PersonIterator 
+ * 	hoeft de buitenwereld geen toegang te hebben tot de persons lijst. Alles
+ *  gaat via de iterator
+ */
 public class PersonRepository {
 
 	private final List<Person> persons;

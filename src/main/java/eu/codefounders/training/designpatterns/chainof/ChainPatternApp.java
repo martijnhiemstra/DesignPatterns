@@ -15,15 +15,15 @@ public class ChainPatternApp {
 
 		System.out.println("Test string '    '");
 		containsSpaceFilter.checkFilter("    ");
-		System.out.println("");
+		System.out.println();
 
 		System.out.println("Test string '__Teeee'");
 		containsSpaceFilter.checkFilter("__Teeee");
-		System.out.println("");
+		System.out.println();
 
 		System.out.println("Test string 'Z   Te'");
 		containsSpaceFilter.checkFilter("Z   Te");
-		System.out.println("");
+		System.out.println();
 	}
 
 }

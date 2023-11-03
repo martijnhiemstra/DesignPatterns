@@ -23,7 +23,7 @@ public class CompositeApp {
 
 		headMarketing.add(clerk1);
 		headMarketing.add(clerk2);
-		
+
 		// print all employees of the organization
 		System.out.println(CEO);
 

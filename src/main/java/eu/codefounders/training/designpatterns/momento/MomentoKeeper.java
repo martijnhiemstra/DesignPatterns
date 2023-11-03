@@ -3,6 +3,10 @@ package eu.codefounders.training.designpatterns.momento;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * De MomentoKeeper bewaart een lijst van Momento. Dit is als het ware de bewaker van
+ * de geschiedenis, de momentos die zijn opgeslagen tot nu toe 
+ */
 public class MomentoKeeper {
 
 	private List<Momento> momentoList = new ArrayList<>();

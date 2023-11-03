@@ -1,4 +1,4 @@
-package eu.codefounders.training.designpatterns.decorator.example;
+package eu.codefounders.training.designpatterns.decorator.car;
 
 public class DecApp {
 

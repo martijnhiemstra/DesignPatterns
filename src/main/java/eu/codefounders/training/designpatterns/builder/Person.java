@@ -17,7 +17,7 @@ public class Person {
 		return this;
 	}
 
-// 	Illegal
+// 	Een setter mag echter hoort niet bij de builder pattern
 //	public void setName(String name) {
 //		this.name = name;
 //	}

@@ -1,9 +1,8 @@
 package eu.codefounders.training.designpatterns.singleton;
 
 /**
- * Singleton design pattern wordt gebruikt om ervoor
- * te zorgen dat er van die class maar 1 object wordt
- * aangemaakt. 
+ * Singleton design pattern wordt gebruikt om ervoor te zorgen dat er 
+ * van deze class maar 1 object wordt aangemaakt. 
  * 
  * @author Martijn Hiemstra
  */

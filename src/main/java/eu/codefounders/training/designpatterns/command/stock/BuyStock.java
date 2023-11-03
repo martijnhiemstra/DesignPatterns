@@ -1,6 +1,9 @@
 package eu.codefounders.training.designpatterns.command.stock;
 
-public class BuyStock implements Order {
+/*
+ * Buy stock is een opdracht om een aandeel te kopen 
+ */
+public class BuyStock implements Command {
 
 	private Stock myStock;
 

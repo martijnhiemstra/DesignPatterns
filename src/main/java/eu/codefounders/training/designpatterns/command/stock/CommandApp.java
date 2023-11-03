@@ -15,22 +15,16 @@ public class CommandApp {
 		// Maak een actie aan om de stock te verkopen
 		SellStock sellStockOrder = new SellStock(myStock);
 
+		// Maak een broker aan die commands gaat verzamelen
 		Broker broker = new Broker();
+		// Voeg opdrachten toe
 		broker.takeOrder(buyStockOrder);
+		broker.takeOrder(sellStockOrder);
+		broker.takeOrder(sellStockOrder);
 		broker.takeOrder(sellStockOrder);
 
 		broker.placeOrders();
 
-		
-		// ------ Alternatieve manier zonder design pattern
-		
-		BuyStock buyStockOrderAlt = new BuyStock(myStock);
-		buyStockOrderAlt.execute(); // of
-		myStock.buy();
-
-		SellStock sellStockOrderAlt = new SellStock(myStock);
-		sellStockOrderAlt.execute();
-		
 	}
 
 }

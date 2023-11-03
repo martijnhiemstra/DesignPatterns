@@ -1,25 +1,25 @@
-package eu.codefounders.training.designpatterns.decorator.example;
+package eu.codefounders.training.designpatterns.decorator.car;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class CruiseControlDecorator extends Car {
+public class AircoDecorator extends Car {
 
 	private Car originalCar;
 
-	public CruiseControlDecorator(Car originalCar) {
+	public AircoDecorator(Car originalCar) {
 		this.originalCar = originalCar;
 	}
 
 	@Override
 	public double costs() {
-		return originalCar.costs() + 2500;
+		return originalCar.costs() + 2000;
 	}
 
 	@Override
 	public List<String> opties() {
 		List<String> newOpties = new ArrayList<>( originalCar.opties() );
-		newOpties.add("Cruise Control");
+		newOpties.add("Airco");
 		return newOpties;
 	}
 	

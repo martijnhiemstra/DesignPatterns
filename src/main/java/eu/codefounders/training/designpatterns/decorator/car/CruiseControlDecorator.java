@@ -1,25 +1,25 @@
-package eu.codefounders.training.designpatterns.decorator.example;
+package eu.codefounders.training.designpatterns.decorator.car;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class RearViewMirrorCameraControlDecorator extends Car {
+public class CruiseControlDecorator extends Car {
 
 	private Car originalCar;
 
-	public RearViewMirrorCameraControlDecorator(Car originalCar) {
+	public CruiseControlDecorator(Car originalCar) {
 		this.originalCar = originalCar;
 	}
 
 	@Override
 	public double costs() {
-		return originalCar.costs() + 800;
+		return originalCar.costs() + 2500;
 	}
 
 	@Override
 	public List<String> opties() {
 		List<String> newOpties = new ArrayList<>( originalCar.opties() );
-		newOpties.add("Rear view mirror camera");
+		newOpties.add("Cruise Control");
 		return newOpties;
 	}
 	

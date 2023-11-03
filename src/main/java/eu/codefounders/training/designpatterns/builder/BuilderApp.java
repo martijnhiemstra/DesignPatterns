@@ -3,7 +3,7 @@ package eu.codefounders.training.designpatterns.builder;
 public class BuilderApp {
 
 	public static void main(String[] args) {
-// 		Dit mag niet want constructor is private en er zijn geen setters
+// 		Dit is hoe je zonder een builder pattern een person vult
 //		Person person = new Person();
 //		person.setName("Henk");
 //		person.setValue(120);
@@ -16,12 +16,8 @@ public class BuilderApp {
 		Person b = new Person().withName("Magreet");
 		System.out.println("B = " + b);
 		
-		printMyBuilder(b);
-	}
-	
-	public static void printMyBuilder(Person p) {
-		String c = p.withAge(100).withActive(true).toString();
+		Person c = b.withAge(100).withActive(true);
 		System.out.println("C = " + c);
 	}
-
+	
 }
