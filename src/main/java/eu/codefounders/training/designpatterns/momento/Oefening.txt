@@ -1,0 +1,7 @@
+Maak een Product, ProductState, BesteldProduct en Winkelwagen
+
+Maak het mogelijk om producten te bewaren en die in de 
+winkellijst op te slaan
+
+Maak het ook mogelijk om producten uit de winkelwagen te 
+verwijderen

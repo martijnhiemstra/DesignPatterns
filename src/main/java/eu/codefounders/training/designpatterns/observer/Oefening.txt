@@ -1,0 +1,14 @@
+
+Studenten 
+Docent
+
+Studenten zich kunnen aanmelden bij docent.
+
+Docent een bericht kunnen sturen naar de aangemelde studenten
+
+Maak het mogelijk om via console een student/leerling toe
+tevoegen aan de docent dmv een S of een L input. 
+Elke ander input gaat de input naar de students sturen.
+
+
+
